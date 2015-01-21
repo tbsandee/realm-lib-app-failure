@@ -1,5 +1,5 @@
 # realm-lib-app-failure
-Project that demonstrates DEX failure when using Realm.io in both an app and a dependent library.
+Project that demonstrates DEX failure when using Realm.io in both an app and a dependent library. This is realm-java enhancement request [#511](https://github.com/realm/realm-java/issues/511).
 
 ```
 C:\Users\Ben\workspaces\realm-lib-app-failure>gradlew clean build
