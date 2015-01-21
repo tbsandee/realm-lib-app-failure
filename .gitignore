@@ -1,0 +1,11 @@
+*.DS_*
+output/*
+.gradle/*
+build/*
+app/build/*
+lib/build/*
+
+local.properties
+target/*
+/.idea/*
+*.iml

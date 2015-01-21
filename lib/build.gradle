@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion = rootProject.ext.buildToolsVersion
+
+  lintOptions {
+    abortOnError false
+  }
+}
+
+dependencies {
+  compile 'io.realm:realm-android:0.77.0'
+}

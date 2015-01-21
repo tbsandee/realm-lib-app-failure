@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 21
+  buildToolsVersion = rootProject.ext.buildToolsVersion
+
+  lintOptions {
+    abortOnError false
+  }
+}
+
+//
+// A basic Android application split over a library and a main project.
+//
+dependencies {
+  compile project(':lib')
+}

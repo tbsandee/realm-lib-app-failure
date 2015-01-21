@@ -1,0 +1,20 @@
+ext {
+    buildToolsVersion = '21.1.2'
+}
+
+buildscript {
+    def gradleVersion = '1.0.1'
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+    }
+}
+
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
